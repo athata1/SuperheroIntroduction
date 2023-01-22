@@ -32,6 +32,9 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="270" height="34.333333333333336"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="My Cool Backstory"/>
+                                                <connections>
+                                                    <action selector="onButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VdZ-pt-Iro"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZf-FZ-hnb">
                                                 <rect key="frame" x="0.0" y="39.333333333333314" width="270" height="34.333333333333343"/>
