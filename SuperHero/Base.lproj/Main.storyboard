@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7ba-og-tgH">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,31 +13,28 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SuperHero" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="JEg-BZ-8QN" userLabel="Main Stack">
-                                <rect key="frame" x="60" y="108" width="294" height="345"/>
+                                <rect key="frame" x="60" y="107" width="270" height="294"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flash" translatesAutoresizingMaskIntoConstraints="NO" id="lv4-zg-CVi">
-                                        <rect key="frame" x="0.0" y="0.0" width="294" height="173"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="270" height="173"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="173" id="7WK-7A-kfk"/>
                                         </constraints>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="R30-xT-C4x" userLabel="Button Stack">
-                                        <rect key="frame" x="0.0" y="181" width="294" height="164"/>
+                                        <rect key="frame" x="0.0" y="181" width="270" height="113"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FFn-7Z-q8k">
-                                                <rect key="frame" x="0.0" y="0.0" width="294" height="51.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="270" height="34.333333333333336"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="My Cool Backstory"/>
-                                                <connections>
-                                                    <action selector="onButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bBe-fK-mF8"/>
-                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZf-FZ-hnb">
-                                                <rect key="frame" x="0.0" y="56.5" width="294" height="51"/>
+                                                <rect key="frame" x="0.0" y="39.333333333333314" width="270" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="My Only Weakness"/>
                                                 <connections>
@@ -45,7 +42,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Op-Q7-0cZ">
-                                                <rect key="frame" x="0.0" y="112.5" width="294" height="51.5"/>
+                                                <rect key="frame" x="0.0" y="78.666666666666686" width="270" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="How much can I Lift"/>
                                                 <connections>
@@ -53,6 +50,9 @@
                                                 </connections>
                                             </button>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="113" id="szx-Py-ALr"/>
+                                        </constraints>
                                     </stackView>
                                 </subviews>
                             </stackView>
@@ -63,7 +63,6 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JEg-BZ-8QN" secondAttribute="trailing" constant="60" id="BnZ-TL-Y1e"/>
                             <constraint firstItem="JEg-BZ-8QN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="V2L-VP-LoD"/>
                             <constraint firstItem="JEg-BZ-8QN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="oiz-Wy-UfS"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JEg-BZ-8QN" secondAttribute="bottom" constant="409" id="uwz-Ux-zM6"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="The Flash" id="U1J-HM-2Qm"/>
@@ -81,20 +80,20 @@
             <objects>
                 <viewController id="Ku5-qa-Qdb" customClass="InformationViewController" customModule="SuperHero" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4AZ-8C-Leg">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="Vtx-Xm-KS6" userLabel="Main Stack">
-                                <rect key="frame" x="75" y="108" width="264" height="282"/>
+                                <rect key="frame" x="75" y="107" width="240" height="282"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wyh-8V-kHP">
-                                        <rect key="frame" x="0.0" y="0.0" width="264" height="150"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="150"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="150" id="Mqf-5y-6AO"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="temp" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qu-BG-Bbn">
-                                        <rect key="frame" x="0.0" y="182" width="264" height="100"/>
+                                        <rect key="frame" x="0.0" y="182" width="240" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="WR2-AI-T9F"/>
                                         </constraints>
@@ -129,7 +128,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7ba-og-tgH" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="UmS-c1-EA8">
-                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -143,7 +142,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="flash" width="400" height="400"/>
+        <image name="flash" width="266.66665649414062" height="266.66665649414062"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
