@@ -15,4 +15,5 @@ This app intorduces the Flash with multiple view controllers
 - [x] 3. Profile Overview
 - [x] 4. Detail View
 
-
+###Stretch Features
+- [x] 1. Customize background/text/buttons with colors or styling
