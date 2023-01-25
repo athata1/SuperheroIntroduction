@@ -6,7 +6,7 @@ This app intorduces the Flash with multiple view controllers
 
 ### App Walk-though
 
-<img src="SuperHeroIntro.gif" width=200><br>
+<img src="SuperHeroIntroduction.gif" width=200><br>
 
 ### Required Features
 
